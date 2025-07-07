@@ -103,7 +103,7 @@ def update_graph(ticker, start_date, end_date):
     except Exception as e:
         # Gestion globale des erreurs
         fig = px.line(title=" Erreur lors du téléchargement ou traitement des données")
-        explication = f" Une erreur est survenue : **{str(e)}**"
+        explication = f" Une erreur est survenuee : **{str(e)}**"
         return fig, explication
 
     except Exception as e:
